@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/tvRHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question for Brain Mapping"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+         android:textStyle="bold"
+        android:textColor="#33ff33"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:textSize="24dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tvRSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Q1 You like maths \n
+Q2 You like calculations? \n
+Q3 You like numerals more than  alphabets?"
+         android:padding="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textColor="#33ff33" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click to continue" 
+        android:background="#33ff33"
+        android:padding="5dp"
+        android:paddingLeft="15dp"
+         android:paddingRight="15dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+         android:layout_marginTop="35dp"
+         />
+
+</LinearLayout>

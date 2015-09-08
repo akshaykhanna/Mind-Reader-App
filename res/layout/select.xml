@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/b2S"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/b4S"
+        android:layout_below="@+id/tvRHead"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/circle"
+        android:padding="5dp"
+        android:text="2"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/b1S"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/b2S"
+        android:layout_alignBottom="@+id/b2S"
+        android:layout_alignLeft="@+id/tvRHead"
+        android:layout_marginLeft="23dp"
+        android:background="@drawable/circle"
+        android:padding="5dp"
+        android:text="1"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/b3S"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/b4S"
+        android:layout_alignBottom="@+id/b4S"
+        android:layout_alignLeft="@+id/b1S"
+        android:background="@drawable/circle"
+        android:padding="5dp"
+        android:text="3"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/b4S"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/tvRHead"
+        android:layout_below="@+id/b2S"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/circle"
+        android:padding="5dp"
+        android:text="4"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvRHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Select any no. out of 4"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#33ff33"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
